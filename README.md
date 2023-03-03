@@ -20,10 +20,10 @@ Discotube is a Python program that scrapes YouTube channels for new videos and s
 4. You can customize the YouTube channels and Discord channels by editing the `channel_ids.txt` file.
 - Each line in the `channel_ids.txt` file corresponds to a YouTube channel and its associated Discord channel. The format of each line is as follows:
   ```
-  <discord_channel_id>,<youtube_channel_id>,<youtube_channel_name>
+  <youtube_channel_id>,<discord_channel_id>,<youtube_channel_name>
   ```
-- `discord_channel_id` is the ID of the Discord channel where notifications should be sent.
 - `youtube_channel_id` is the ID of the YouTube channel to be monitored. You can obtain this ID by going to the YouTube channel's page and looking at the URL. The ID is the string of letters and numbers after "channel/" in the URL.
+- `discord_channel_id` is the ID of the Discord channel where notifications should be sent.
 - `youtube_channel_name` is a human-readable name for the YouTube channel, which is used in the notification message.
 ## Contact
 
