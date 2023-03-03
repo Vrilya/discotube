@@ -15,8 +15,7 @@ Discotube is a Python program that scrapes YouTube channels for new videos and s
 
 1. Open a terminal window in the directory where you cloned the repository.
 2. Start the program by running the following command:
-
-python discotube.py
+'python discotube.py'
 3. The program will start scraping the specified YouTube channels and sending notifications to the associated Discord channels.
 4. You can customize the YouTube channels and Discord channels by editing the `channel_ids.txt` file.
 - Each line in the `channel_ids.txt` file corresponds to a YouTube channel and its associated Discord channel. The format of each line is as follows:
